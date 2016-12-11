@@ -1,0 +1,47 @@
+{
+  "name": "serverside-jq-serverless",
+  "version": "0.0.1",
+  "description": "Serverside jq for Serverless by the AWS Lambda.(joke package...)",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "babel-plugin-espower"
+    ]
+  },
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takeshinoda/serverside-jq-serverless.git"
+  },
+  "keywords": [
+    "jq",
+    "lambda"
+  ],
+  "author": "Takeshi SHINODA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takeshinoda/serverside-jq-serverless/issues"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "node-jq-ext": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-plugin-espower": "^2.3.1",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-util": "^3.0.7",
+    "power-assert": "^1.4.2",
+    "run-sequence": "^1.2.2"
+  }
+}
