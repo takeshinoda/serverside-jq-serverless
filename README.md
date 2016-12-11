@@ -8,7 +8,7 @@ This is joke.
 index.js
 
 ```javascript
-get_lambda_function = require('serversid-jq-serverless');
-export.handler = get_lambda_function('. | .key1');
+get_lambda_function = require('serverside-jq-serverless');
+export.handler = get_lambda_function.default('. | .key1');
 ```
 
